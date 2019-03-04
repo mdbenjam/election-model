@@ -1,3 +1,3 @@
 print("Hello world")
-x <- 1:10
+x <- 1:12
 write(x, file = "output/data", sep = " ")
