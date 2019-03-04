@@ -7,6 +7,7 @@ RUN apt-get update && \
 RUN pip install awscli
 
 WORKDIR /tmp/workdir
+RUN mkdir /tmp/workdir/output
 
 COPY upload_results.sh /tmp/workdir
 COPY entrypoint.sh /tmp/workdir

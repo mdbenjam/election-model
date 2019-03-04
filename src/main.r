@@ -1,3 +1,3 @@
 print("Hello world")
-
-write([1, 2, 3, 4], file = "output/data", sep = " ")
+x <- 1:7
+write(x, file = "output/data", sep = " ")
